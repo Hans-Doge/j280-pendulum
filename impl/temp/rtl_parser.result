@@ -1,0 +1,200 @@
+[
+    {
+        "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+        "InstLine": 7,
+        "InstName": "top",
+        "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+        "ModuleLine": 7,
+        "ModuleName": "top",
+        "SubInsts": [
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 86,
+                "InstName": "pump_vel_est",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/vel_est.v",
+                "ModuleLine": 7,
+                "ModuleName": "vel_est"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 102,
+                "InstName": "pump_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/swing_up_energy.v",
+                "ModuleLine": 8,
+                "ModuleName": "swing_up_energy"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 186,
+                "InstName": "md_kick",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/motor_drive.v",
+                "ModuleLine": 9,
+                "ModuleName": "motor_drive"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 243,
+                "InstName": "vel_est_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/vel_est.v",
+                "ModuleLine": 7,
+                "ModuleName": "vel_est"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 250,
+                "InstName": "vel_est_arm_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/vel_est_arm.v",
+                "ModuleLine": 7,
+                "ModuleName": "vel_est_arm"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 373,
+                "InstName": "pid_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/pid.v",
+                "ModuleLine": 7,
+                "ModuleName": "pid"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 407,
+                "InstName": "keypad_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/keypad.v",
+                "ModuleLine": 13,
+                "ModuleName": "keypad"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 412,
+                "InstName": "kb_input_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/kb_input.v",
+                "ModuleLine": 12,
+                "ModuleName": "kb_input"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 424,
+                "InstName": "swing_up_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/swing_up.v",
+                "ModuleLine": 7,
+                "ModuleName": "swing_up"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 447,
+                "InstName": "oled_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/oled_ssd1306.v",
+                "ModuleLine": 6,
+                "ModuleName": "oled_ssd1306"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 465,
+                "InstName": "key_filter_gen[0].key_filter_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 465,
+                "InstName": "key_filter_gen[1].key_filter_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 465,
+                "InstName": "key_filter_gen[2].key_filter_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 465,
+                "InstName": "key_filter_gen[3].key_filter_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 483,
+                "InstName": "adc_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/adc.v",
+                "ModuleLine": 1,
+                "ModuleName": "adc"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 512,
+                "InstName": "motor_ctrl_A",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/motor_ctrl.v",
+                "ModuleLine": 1,
+                "ModuleName": "motor_ctrl"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 527,
+                "InstName": "motor_ctrl_B",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/motor_ctrl.v",
+                "ModuleLine": 1,
+                "ModuleName": "motor_ctrl"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 542,
+                "InstName": "encoder_1",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/encoder.v",
+                "ModuleLine": 2,
+                "ModuleName": "encoder"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 554,
+                "InstName": "encoder_2",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/encoder.v",
+                "ModuleLine": 2,
+                "ModuleName": "encoder"
+            },
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+                "InstLine": 572,
+                "InstName": "uart_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/uart.v",
+                "ModuleLine": 1,
+                "ModuleName": "uart",
+                "SubInsts": [
+                    {
+                        "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/uart.v",
+                        "InstLine": 39,
+                        "InstName": "uart_tx_inst",
+                        "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/uart_tx.v",
+                        "ModuleLine": 3,
+                        "ModuleName": "uart_tx"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/kick_swing.v",
+        "InstLine": 8,
+        "InstName": "kick_swing",
+        "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/kick_swing.v",
+        "ModuleLine": 8,
+        "ModuleName": "kick_swing",
+        "SubInsts": [
+            {
+                "InstFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/kick_swing.v",
+                "InstLine": 66,
+                "InstName": "es_inst",
+                "ModuleFile": "E:/FPGACLASS/Absolute VALUE/absolute value/src/energy_swing.v",
+                "ModuleLine": 8,
+                "ModuleName": "energy_swing"
+            }
+        ]
+    }
+]

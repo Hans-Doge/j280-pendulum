@@ -1,0 +1,100 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\top.v'
+Undeclared symbol 'kb_dir', assumed default net type 'wire'("D:\gaoyun\FINALly\src\top.v":413)
+Undeclared symbol 'kb_goto_valid', assumed default net type 'wire'("D:\gaoyun\FINALly\src\top.v":423)
+Undeclared symbol 'kb_goto_cnts', assumed default net type 'wire'("D:\gaoyun\FINALly\src\top.v":424)
+Undeclared symbol 'kb_cancel', assumed default net type 'wire'("D:\gaoyun\FINALly\src\top.v":425)
+WARN  (EX3638) : 'kb_dir' is already implicitly declared on line 413("D:\gaoyun\FINALly\src\top.v":433)
+WARN  (EX3638) : 'kb_goto_valid' is already implicitly declared on line 423("D:\gaoyun\FINALly\src\top.v":434)
+WARN  (EX3638) : 'kb_goto_cnts' is already implicitly declared on line 424("D:\gaoyun\FINALly\src\top.v":435)
+WARN  (EX3638) : 'kb_cancel' is already implicitly declared on line 425("D:\gaoyun\FINALly\src\top.v":436)
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\adc.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\encoder.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\key_filter.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\motor_ctrl.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\pid.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\swing_up.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\swing_up_energy.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\kick_swing.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\motor_drive.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\uart.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\uart_tx.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\vel_est.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\vel_est_arm.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\energy_swing.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\keypad.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\kb_input.v'
+Analyzing Verilog file 'D:\gaoyun\FINALly\src\oled_ssd1306.v'
+WARN  (EX3073) : Port 'adc_otr' remains unconnected for this instance("D:\gaoyun\FINALly\src\top.v":526)
+Compiling module 'top'("D:\gaoyun\FINALly\src\top.v":1)
+Compiling module 'vel_est'("D:\gaoyun\FINALly\src\vel_est.v":11)
+WARN  (EX3791) : Expression size 30 truncated to fit in target size 16("D:\gaoyun\FINALly\src\vel_est.v":72)
+Compiling module 'swing_up_energy(U_MAX=16'sd3072,E_GATE=16'sd1442,U_START=16'sd1408,E_MID=16'sd120,K_SHIFT=12,PULSE_TICKS=0,UPPER_PUMP=1)'("D:\gaoyun\FINALly\src\swing_up_energy.v":89)
+Compiling module 'motor_drive(SIGN=-1)'("D:\gaoyun\FINALly\src\motor_drive.v":9)
+Compiling module 'vel_est_arm'("D:\gaoyun\FINALly\src\vel_est_arm.v":21)
+Extracting RAM for identifier 'pos_hist'("D:\gaoyun\FINALly\src\vel_est_arm.v":36)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\gaoyun\FINALly\src\vel_est_arm.v":64)
+Compiling module 'pid(POS_STEP_RATE=16'sd6)'("D:\gaoyun\FINALly\src\pid.v":22)
+WARN  (EX1998) : Net 'ramp_start_q[15]' does not have a driver("D:\gaoyun\FINALly\src\pid.v":190)
+WARN  (EX1998) : Net 'bias_gap_q[31]' does not have a driver("D:\gaoyun\FINALly\src\pid.v":191)
+Compiling module 'keypad'("D:\gaoyun\FINALly\src\keypad.v":13)
+Compiling module 'kb_input'("D:\gaoyun\FINALly\src\kb_input.v":12)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\gaoyun\FINALly\src\kb_input.v":72)
+Compiling module 'swing_up(SWING_PWM=8'd96)'("D:\gaoyun\FINALly\src\swing_up.v":28)
+Compiling module 'oled_ssd1306'("D:\gaoyun\FINALly\src\oled_ssd1306.v":12)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 7("D:\gaoyun\FINALly\src\oled_ssd1306.v":160)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 5("D:\gaoyun\FINALly\src\oled_ssd1306.v":161)
+Compiling module 'key_filter'("D:\gaoyun\FINALly\src\key_filter.v":1)
+Compiling module 'adc'("D:\gaoyun\FINALly\src\adc.v":1)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\gaoyun\FINALly\src\adc.v":48)
+WARN  (EX3791) : Expression size 15 truncated to fit in target size 14("D:\gaoyun\FINALly\src\adc.v":57)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\gaoyun\FINALly\src\adc.v":67)
+Compiling module 'motor_ctrl'("D:\gaoyun\FINALly\src\motor_ctrl.v":1)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("D:\gaoyun\FINALly\src\motor_ctrl.v":28)
+Compiling module 'encoder'("D:\gaoyun\FINALly\src\encoder.v":2)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":48)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":49)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":50)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":51)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":53)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":54)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":55)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\gaoyun\FINALly\src\encoder.v":56)
+Compiling module 'uart(CNT_1S=32'd749_999)'("D:\gaoyun\FINALly\src\uart.v":1)
+Compiling module 'uart_tx(UART_BPS=21'b000000010010110000000,CLK_FREQ=26'b10111110101111000010000000)'("D:\gaoyun\FINALly\src\uart_tx.v":3)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "adc_otr" of module "adc" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\adc.v":9)
+WARN  (EX0211) : The output port "data_out[15]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[14]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[13]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[12]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[11]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[10]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[9]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[8]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[7]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[6]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[5]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[4]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[3]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[2]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[1]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+WARN  (EX0211) : The output port "data_out[0]" of module "uart(CNT_1S=32'd749_999)" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\gaoyun\FINALly\src\uart.v":19)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input uart_rx is unused("D:\gaoyun\FINALly\src\top.v":14)
+WARN  (CV0016) : Input enc2_a is unused("D:\gaoyun\FINALly\src\top.v":26)
+WARN  (CV0016) : Input enc2_b is unused("D:\gaoyun\FINALly\src\top.v":27)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed

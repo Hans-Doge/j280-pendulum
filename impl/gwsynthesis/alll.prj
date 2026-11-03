@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-55C" package="PBGA484" speed="8" partNumber="GW2A-LV55PG484C8/I7"/>
+    <FileList>
+        <File path="D:\gaoyun\FINALly\src\top.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\adc.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\encoder.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\key_filter.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\motor_ctrl.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\pid.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\swing_up.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\swing_up_energy.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\kick_swing.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\motor_drive.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\uart.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\uart_tx.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\vel_est.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\vel_est_arm.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\energy_swing.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\keypad.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\kb_input.v" type="verilog"/>
+        <File path="D:\gaoyun\FINALly\src\oled_ssd1306.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_style" value="auto"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="map_option" value="1"/>
+        <Option type="max_fanout" value="1000"/>
+        <Option type="netlist_hierarchy" value="1"/>
+        <Option type="opt_goal" value="auto"/>
+        <Option type="output_file" value="D:\gaoyun\FINALly\impl\gwsynthesis\alll.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="ram_style" value="auto"/>
+        <Option type="rom_style" value="auto"/>
+        <Option type="shift_reg" value="auto"/>
+        <Option type="top_module" value="top"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

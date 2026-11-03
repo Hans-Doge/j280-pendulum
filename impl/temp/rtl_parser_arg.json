@@ -1,0 +1,84 @@
+{
+    "Device": "GW2A-55C",
+    "Files": [
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/top.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/adc.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/encoder.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/key_filter.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/motor_ctrl.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/pid.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/swing_up.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/swing_up_energy.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/kick_swing.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/motor_drive.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/uart.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/uart_tx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/vel_est.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/vel_est_arm.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/energy_swing.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/keypad.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/kb_input.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "E:/FPGACLASS/Absolute VALUE/absolute value/src/oled_ssd1306.v",
+            "Type": "verilog"
+        }
+    ],
+    "IncludePath": [
+    ],
+    "LoopLimit": 2000,
+    "ResultFile": "E:/FPGACLASS/Absolute VALUE/absolute value/impl/temp/rtl_parser.result",
+    "Top": "top",
+    "VerilogStd": "verilog_2001",
+    "VhdlStd": "vhdl_93"
+}

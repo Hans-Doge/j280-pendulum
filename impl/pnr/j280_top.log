@@ -1,0 +1,29 @@
+Reading netlist file: "D:\gaoyun\cccc\FINALly\impl\gwsynthesis\j280_top.vg"
+Parsing netlist file "D:\gaoyun\cccc\FINALly\impl\gwsynthesis\j280_top.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\gaoyun\cccc\FINALly\src\fo_rip_top.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\gaoyun\cccc\FINALly\impl\pnr\j280_top.power.html" completed
+Generate file "D:\gaoyun\cccc\FINALly\impl\pnr\j280_top.pin.html" completed
+Generate file "D:\gaoyun\cccc\FINALly\impl\pnr\j280_top.rpt.html" completed
+Generate file "D:\gaoyun\cccc\FINALly\impl\pnr\j280_top.rpt.txt" completed
+Generate file "D:\gaoyun\cccc\FINALly\impl\pnr\j280_top.tr.html" completed
+Tue Nov  3 21:26:41 2026
+
